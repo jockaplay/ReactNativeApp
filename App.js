@@ -31,7 +31,7 @@ export default function App() {
       </View>
       <View style={styles.body}>
         <Text style={styles.h2}>Conta</Text>
-        <Text style={styles.h1}>R$ 20.514.03</Text>
+        <Text style={styles.h1}>R$ 0,00</Text>
       </View>
       <ScrollView showsHorizontalScrollIndicator={false} horizontal={true} style={styles.row}>
         <CircularButtom name='Pix'/>
