@@ -8,8 +8,8 @@ export default class CircularButtom extends Component {
     };
     render() {
         return(
-            <View style={{paddingVertical: 20, marginLeft: 20}}>
-                <Ionicons style={{backgroundColor: '#f0f8ff', padding: 20, borderRadius: 40,}} name="wallet-outline" size={25} color="black" />
+            <View style={{paddingVertical: 20}}>
+                <View style={{backgroundColor: '#f0f8ff', width: 80, height: 80, borderRadius: 40, justifyContent: 'center', alignItems: 'center'}}><Ionicons name="wallet-outline" size={25} color="black" /></View>
                 <Text style={{textAlign: 'center', top: 10, fontWeight: '500'}}>{this.props.name}</Text>
             </View>
         );

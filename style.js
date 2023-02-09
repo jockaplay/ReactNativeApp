@@ -51,6 +51,10 @@ const styles = StyleSheet.create({
       width: '100%',
       flexDirection: 'row',
       overflow: 'scroll',
+      paddingHorizontal: appMargin,
+    },
+    circleBut: {
+      padding: appMargin,
     }
 });
 
