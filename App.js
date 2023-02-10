@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { ScrollView, Text, View, Pressable } from 'react-native';
-import { Divider } from 'react-native-paper';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import CircularButtom from './components/circularBottom';
 import styles from './style';
