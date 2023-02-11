@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 let cor = '#9c44dc';
+let corSecundaria = '#f1f1f1';
 let appMargin = 20;
 
 const styles = StyleSheet.create({
@@ -50,11 +51,28 @@ const styles = StyleSheet.create({
     row: {
       width: '100%',
       flexDirection: 'row',
-      overflow: 'scroll',
-      paddingHorizontal: appMargin,
+      overflow: 'visible',
     },
     circleBut: {
       padding: appMargin,
+    },
+    grayButton: {
+      margin: appMargin,
+      backgroundColor: corSecundaria,
+      width: '90%',
+      padding: appMargin,
+      borderRadius: 10,
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    grayButtonShort: {
+      width: 250,
+      padding: appMargin,
+      borderRadius: 10,
+      backgroundColor: corSecundaria,
+      marginEnd: appMargin,
+      flexDirection: 'row',
+      alignItems: 'center',
     }
 });
 
